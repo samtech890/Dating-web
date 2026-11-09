@@ -4,7 +4,7 @@ This guide explains how to deploy and configure the HeartLink authentication and
 
 ## Prerequisites
 
-- Node.js 18.18.0 or higher
+- Node.js 22.x (matches the Vercel deployment runtime)
 - A Supabase project with authentication enabled
 - Google Cloud Console account (for Google OAuth, optional but recommended)
 

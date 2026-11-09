@@ -4,7 +4,7 @@ HeartLink is a responsive dating website built with Next.js App Router, TypeScri
 
 ## Run locally
 
-Requires Node.js 18.18 or later.
+Requires Node.js 22.x (the version selected for Vercel deployments).
 
 1. Install dependencies with `npm install`.
 2. Copy `.env.example` to `.env.local` and set your Supabase project URL and publishable key.
