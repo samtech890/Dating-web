@@ -13,6 +13,8 @@ Requires Node.js 22.x (the version selected for Vercel deployments).
 
 Run `npm run lint` and `npm run build` to validate the project.
 
+The npm install-script allow-list is limited to the pinned `sharp` image processor and `unrs-resolver` native platform resolver versions used by the build.
+
 ## Supabase
 
 Apply the SQL files in `supabase/migrations/` to a Supabase project. OAuth provider secrets belong only in the provider and Supabase dashboards; never place them in client-side environment variables.
